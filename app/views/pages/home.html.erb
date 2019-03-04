@@ -1,19 +1,46 @@
-<section  class="container">
-  <div class="exercice1">
-    <div>
-      <h3>Javascript and the DOM :</h3>
-      <h4>Exercice 1</h4>
-      <ul>
-        <li><p>Renvoyer la valeur de la largeur de la fenêtre dans le html.</p></li>
-        <li><p>Insérer une div et du texte avec "insertAdjacentHTML" après ça.</p></li>
-      </ul>
-      <div id="cible"></div>
+
+  <div class="banner">
+    <div class="banner-content"><hr>
+      <h1>Domotique et objets connectés.</h1>
+      <h3>La technologie au service de l'économie d'énergie et de la consommation responsable. </h3><hr><br>
+      <div href="#" class="mybutton">
+        <div href="#" id="interupt"></div>
+      </div>
     </div>
   </div>
-  <div class="exercice2">
-    <h4>Exercice 2</h4>
+  <div class="banner-bottom">
+    <h1>Nos installations</h1>
+    <p>Attention, il ne reste plus que :<%=  %></p>
+    <div class="row">
+      <div class="col-md-6 col-xs-12">
+        <div class="card">
+          <h1>Pack de démarrage</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore tenetur autem quas nisi voluptates non excepturi distinctio minus. Eos molestiae temporibus est iure consequatur voluptate numquam, perferendis voluptatibus ullam similique!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore tenetur autem quas nisi voluptates non excepturi distinctio minus. Eos molestiae temporibus est iure consequatur voluptate numquam, perferendis voluptatibus ullam similique!</p>
+          <%= image_tag "promo1.png", alt: "alttext", height: 250 %>
+        </div>
+      </div>
+      <div class="col-md-6 col-xs-12">
+        <div class="card">
+          <h1>Kit de connection</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis adipisci dolorem explicabo! Animi eius fuga numquam ipsa quos autem natus optio dignissimos, quia magni vero iste adipisci inventore at recusandae.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore tenetur autem quas nisi voluptates non excepturi distinctio minus. Eos molestiae temporibus est iure consequatur voluptate numquam, perferendis voluptatibus ullam similique!</p>
+          <%= image_tag "promo2.png", alt: "alttext", height: 250 %>
+        </div>
+      </div>
+    </div>
   </div>
-</section>
+
+  <div class="zob">
+    <h1>Et après ?!</h1>
+    <p>On fait quoi ?</p>
+  </div>
+
+    <div class="wrapper">
+      <div class="article">
+        <h1 class= "hidden-xs">Certifié</h1>
+        <span class="legrand hidden-xs";><%= image_tag "logo_legrand.jpg", alt: "Legrand", height: 50 %></span>
+        <span class="delta-dore hidden-xs";><%= image_tag "logo_delta-dore.jpeg", alt: "delta-dore", height: 50 %></span>
+        <div class="visuel"></div>
+      </div>
 
 
-
+    </div>

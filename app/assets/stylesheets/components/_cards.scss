@@ -1,0 +1,19 @@
+.card {
+  width: auto;
+  position: relative;
+  text-align: center;
+  padding: 1rem 0;
+  height: auto;
+  background: $orange;
+  border-radius: 5px;
+  margin: 1rem 1rem;
+}
+
+.card h1 {
+  color: black;
+}
+
+.card p {
+  color: black;
+  font-size: 0.8em;
+}

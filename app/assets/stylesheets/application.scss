@@ -9,7 +9,27 @@
 @import "font-awesome-sprockets";
 @import "font-awesome";
 
+
+
 // Your CSS partials
 @import "layouts/index";
 @import "components/index";
 @import "pages/index";
+
+
+
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background: black;
+}
+
+* {
+  box-sizing: border-box;
+}

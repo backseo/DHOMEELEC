@@ -1,20 +1,177 @@
-// Specific CSS for your home-page
-#cible {
-  color: white;
-  background-color: #aaa;
-  padding: 2px;
-  border-radius: 3px;
+.banner {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  vertical-align: center;
+  background: $orange;
+  background-image: url(header_bgd_red_.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+
+.banner-content {
+  position: relative;
   text-align: center;
-  min-width: 280px;
-  max-width: 50%;
+  padding: 5px;
+  color: black;
 }
 
-.exercice1 {
-  background-color: #ccc;
-  padding: 10px;
+.banner-content h1 {
+  font-weight: 500;
+  text-align: center;
+  padding: 0px 5px;
 }
 
-.exercice2 {
-  background-color: #eee;
-  padding: 10px;
+.banner-content h3 {
+  font-size: 2em;
+  color: rgba(23,65,89,0.5);
+  text-align: center;
+  padding: 0px 5px;
 }
+
+.banner-bottom {
+  display: block;
+  top:200px;
+  height: auto;
+  margin: 0 auto;
+  background: white;
+  color: black;
+}
+
+.banner-bottom h1,
+.banner-bottom p {
+  border: 1px red solid;
+  text-align: center;
+  margin: 10px 10px;
+  padding: 10px 10px;
+}
+
+#installations {
+  padding-top: 2em;
+  text-align: center;
+  color: black;
+}
+
+.mybutton {
+  display: block;
+  position: relative;
+  background: #bbb;
+  box-shadow: inset 1px 1px 5px 0px rgba(0,0,0,0.75);
+  width: 143px;
+  height: 60px;
+  margin: 0 auto;
+  border-radius: 30px;
+  border: 1px white solid;
+  z-index: 1;
+  cursor: pointer;
+}
+
+#interupt {
+  position: absolute;
+  bottom: 3px;
+  left: 1px;
+  width: 52px;
+  height: 52px;
+  background: radial-gradient(
+      circle closest-side,
+      rgba(255,255,255,.2),
+      $green
+    );
+  border-radius: 50%;
+  border: 1px black solid;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px 0px #343434;
+}
+
+.legrand {
+  position: absolute;
+  top: 0px;
+  left: 180px;
+  float: left;
+  margin: 1em 1em;
+  background: white;
+  padding: 1em;
+  border-radius: 3px;
+}
+
+.delta-dore {
+  position: absolute;
+  top: 0px;
+  left: 500px;
+  float: left;
+  margin: 1em 1em;
+  background: white;
+  padding: 1em;
+  border-radius: 3px;
+}
+
+.visuel {
+  position: absolute;
+  display: flex;
+  border: 1px red solid;
+  top: 240px;
+  height: 250px;
+  width: 100%;
+
+
+}
+
+.img-ecographik {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0px;
+}
+
+.wrapper {
+  display: block;
+  justify-content: space-around;
+  align-items: center;
+  background: white;
+}
+
+.article {
+  position: relative;
+  background: url(header_bg_Série_red.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 580px;
+  top:4px;
+  color: white;
+}
+
+ .article h1 {
+    position: absolute;
+    margin-left: 20px;
+    top: 0px;
+    left: 0px;
+    color: $orange;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+
+.article p {
+  position: relative;
+  margin: 2rem 2em;
+  padding-left: 250px;
+  top: 260px;
+  color: black;
+  text-indent: 3em;
+  font-size: 0.8em;
+}
+
+.img-ecographik {
+  left: 20px;
+  margin-bottom: 20px;
+}
+
+.zob {
+  position: relative;
+  text-align: center;
+}
+

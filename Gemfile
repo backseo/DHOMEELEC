@@ -15,7 +15,7 @@ gem 'sassc-rails'
 gem 'simple_form'
 gem 'uglifier'
 gem 'webpacker'
-
+gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
 group :development do
   gem 'web-console', '>= 3.3.0'
 end
