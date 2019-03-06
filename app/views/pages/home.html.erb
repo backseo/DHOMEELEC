@@ -1,46 +1,37 @@
+<%= render partial: 'components/banner' %>
 
-  <div class="banner">
-    <div class="banner-content"><hr>
-      <h1>Domotique et objets connectés.</h1>
-      <h3>La technologie au service de l'économie d'énergie et de la consommation responsable. </h3><hr><br>
-      <div href="#" class="mybutton">
-        <div href="#" id="interupt"></div>
-      </div>
-    </div>
-  </div>
-  <div class="banner-bottom">
-    <h1>Nos installations</h1>
-    <p>Attention, il ne reste plus que :<%=  %></p>
-    <div class="row">
-      <div class="col-md-6 col-xs-12">
-        <div class="card">
-          <h1>Pack de démarrage</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore tenetur autem quas nisi voluptates non excepturi distinctio minus. Eos molestiae temporibus est iure consequatur voluptate numquam, perferendis voluptatibus ullam similique!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore tenetur autem quas nisi voluptates non excepturi distinctio minus. Eos molestiae temporibus est iure consequatur voluptate numquam, perferendis voluptatibus ullam similique!</p>
-          <%= image_tag "promo1.png", alt: "alttext", height: 250 %>
-        </div>
-      </div>
-      <div class="col-md-6 col-xs-12">
-        <div class="card">
-          <h1>Kit de connection</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis adipisci dolorem explicabo! Animi eius fuga numquam ipsa quos autem natus optio dignissimos, quia magni vero iste adipisci inventore at recusandae.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore tenetur autem quas nisi voluptates non excepturi distinctio minus. Eos molestiae temporibus est iure consequatur voluptate numquam, perferendis voluptatibus ullam similique!</p>
-          <%= image_tag "promo2.png", alt: "alttext", height: 250 %>
-        </div>
-      </div>
+  <div class="wrapper">
+    <div class="article">
+      <h1 class= "hidden-xs">Certifié</h1>
+      <span class="legrand hidden-xs";><%= image_tag "logo_legrand.jpg", alt: "Legrand", height: 50 %></span>
+      <span class="delta-dore hidden-xs";><%= image_tag "logo_delta-dore.jpeg", alt: "delta-dore", height: 50 %></span>
     </div>
   </div>
 
-  <div class="zob">
+  <div class="question">
     <h1>Et après ?!</h1>
     <p>On fait quoi ?</p>
   </div>
 
-    <div class="wrapper">
-      <div class="article">
-        <h1 class= "hidden-xs">Certifié</h1>
-        <span class="legrand hidden-xs";><%= image_tag "logo_legrand.jpg", alt: "Legrand", height: 50 %></span>
-        <span class="delta-dore hidden-xs";><%= image_tag "logo_delta-dore.jpeg", alt: "delta-dore", height: 50 %></span>
-        <div class="visuel"></div>
+  <div class="banner-bottom">
+  <h1>Nos installations faciles :</h1>
+  <p>Attention, il ne reste plus que :</p>
+  <div class="row">
+    <div class="col-md-6 col-xs-12">
+      <div class="card">
+        <h1>Kit de démarrage pour connecter une première pièce avec 4 produits Céliane.</h1>
+        <%= image_tag "promo1.png", alt: "alttext", height: 250 %>
+        <p> Permet de contrôler votre maison à distance(éclairage, volets roulants et appareils électriques) par smartphone via l'Application Home + Control et/ou par assistant vocal. Kit Céliane with Netatmo à commander impérativement pour toute installation connectée
+  Kit composé de : 1 prise de courant Control, 1 commande générale sans fil Départ/Arrivée, 1 interrupteur d'éclairage avec option variateur et 1 commande sans fil pour éclairage et prise. Peut être complété par des kits connectés ou des produits connectés Connexion Wi-Fi requise 2,4 GHz
+  Produits livrés complets avec supports, enjoliveurs de couleur graphite et plaques Métal Tungstène</p>
       </div>
-
-
     </div>
+    <div class="col-md-6 col-xs-12">
+      <div class="card">
+        <h1>Kit de connection</h1>
+        <%= image_tag "promo2.png", alt: "alttext", height: 250 %>
+        <p>Permet de créer votre va-et-vient d'éclairage sans fil ou ajouter une ou plusieurs commandes sans fil<br />&nbsp;&nbsp;&nbsp; Associer impérativement au pack de démarrage Céliane with Netatmo pour compléter votre installation connectée<br />&nbsp;&nbsp;&nbsp; S’installe facilement dans un plafonnier ou des appliques murales<br />&nbsp;&nbsp;&nbsp; Fonction on/off<br />&nbsp;&nbsp;&nbsp; Compatible toutes lampes 5 à 300W<br />&nbsp;&nbsp;&nbsp; 1 référence = 1 appareil complet prêt à installer<br /><br /><strong>Votre maison connectée with Netatmo - Legrand</strong><br /><br />&nbsp;&nbsp;&nbsp; - Permet de contrôler votre maison à distance (éclairage, volets roulants et appareils électriques) par smartphone via l'Application&nbsp; Home + Control et/ou par la voix (via un assistant vocal)<br />&nbsp;&nbsp;&nbsp; - A commander impérativement pour toute installation connectée<br />&nbsp;&nbsp;&nbsp; - Le pack de démarrage peut être complété par les packs connectés ou produits connectés<br />&nbsp;&nbsp;&nbsp; - Connexion Wi-Fi requise 2.4 GHz</p>
+      </div>
+    </div>
+  </div>
+</div>

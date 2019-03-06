@@ -6,7 +6,7 @@
   height: auto;
   background: $orange;
   border-radius: 5px;
-  margin: 1rem 1rem;
+  margin: 2rem 1rem;
 }
 
 .card h1 {
@@ -16,4 +16,9 @@
 .card p {
   color: black;
   font-size: 0.8em;
+  max-height: 200px;
+  border-radius: 2px;
+  background: white;
+  text-indent: 2em;
+  overflow: scroll;
 }

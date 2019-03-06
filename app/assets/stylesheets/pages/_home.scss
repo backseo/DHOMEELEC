@@ -5,12 +5,18 @@
   justify-content: space-around;
   align-items: center;
   vertical-align: center;
+  background-image: url();
   background: $orange;
-  background-image: url(header_bgd_red_.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   z-index: 0;
+}
+.light-on {
+  background-image: url(header_bgd_red_.png);
+}
+.light-off {
+  background-image: url(header_bg_Série_beast.png);
 }
 
 .banner-content {
@@ -38,15 +44,18 @@
   top:200px;
   height: auto;
   margin: 0 auto;
+  padding: 10px 10px;
   background: white;
   color: black;
+}
+#counter {
+  height: 150px;
 }
 
 .banner-bottom h1,
 .banner-bottom p {
-  border: 1px red solid;
   text-align: center;
-  margin: 10px 10px;
+  margin: 10px 20px;
   padding: 10px 10px;
 }
 
@@ -87,44 +96,17 @@
   box-shadow: 2px 2px 4px 0px #343434;
 }
 
-.legrand {
-  position: absolute;
-  top: 0px;
-  left: 180px;
-  float: left;
-  margin: 1em 1em;
-  background: white;
-  padding: 1em;
-  border-radius: 3px;
-}
-
-.delta-dore {
-  position: absolute;
-  top: 0px;
-  left: 500px;
-  float: left;
-  margin: 1em 1em;
-  background: white;
-  padding: 1em;
-  border-radius: 3px;
-}
-
 .visuel {
   position: absolute;
   display: flex;
-  border: 1px red solid;
-  top: 240px;
+  top: 340px;
   height: 250px;
   width: 100%;
-
-
+  color: white;
 }
 
-.img-ecographik {
-  display: block;
-  position: absolute;
-  top: 50%;
-  left: 0px;
+.visuel-text {
+  top: 240px;
 }
 
 .wrapper {
@@ -136,19 +118,21 @@
 
 .article {
   position: relative;
-  background: url(header_bg_Série_red.png);
-  background-size: cover;
+  background: url(banniere2.png);
+  background-size: 100%;
+  background-position: top left;
   background-repeat: no-repeat;
   width: 100%;
   height: 580px;
   top:4px;
   color: white;
+  text-align: center;
 }
 
  .article h1 {
     position: absolute;
     margin-left: 20px;
-    top: 0px;
+    top:5px;
     left: 0px;
     color: $orange;
     font-weight: 900;
@@ -165,13 +149,30 @@
   font-size: 0.8em;
 }
 
-.img-ecographik {
-  left: 20px;
-  margin-bottom: 20px;
+.legrand {
+  position: relative;
+  top: 20px;
+  margin: 1em 1em;
+  padding: 1em;
+  border-radius: 3px;
 }
 
-.zob {
+.delta-dore {
+  position: relative;
+  top: 20px;
+  margin: 1em 1em;
+  padding: 1em;
+  border-radius: 3px;
+}
+
+.question {
+  padding: .5em 1em;
   position: relative;
   text-align: center;
+  background: black;
 }
 
+.list-2 {
+  color: black;
+  top: 250px;
+}
